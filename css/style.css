@@ -85,6 +85,7 @@ body {
 }
 .left{
 	text-align: left;
+	color: #848485;
 }
 .bars {
 	display: none;
@@ -116,28 +117,31 @@ height: 24px;
 	color: #fff;
 }
 .h3{
-	color: #644f3a;
+	color: #1e2326;
 	font-size: 24px;
 	margin: 5px 0px;
 	text-align: left;
-	font-family: 'Roboto Bold', arial;
+	font-family: 'Bebas Neue';
 }
 .h4{
-	color: #fff;
+	color: #1e2326;
 	font-size: 22px;
 	line-height: 26px;
-	margin: 15px;
-	height: 70px;
-	margin-top: -132px;
-	margin-bottom: 70px;
+	cursor: default;
+	/*margin: 15px;*/
+	/*height: 70px;*/
+	/*margin-top: -132px;
+	margin-bottom: 70px;*/
 }
 .price{
-	float: left;
+	/*float: left;*/
 	padding: 10px 0px;
-	width: 46%;
-	color: #ef8015;
+	/*width: 46%;*/
+	color: #f22d2d;
 	font-size: 24px;
 	font-family: 'Roboto Bold', arial;
+	cursor: default;
+
 }
 .read{
 	color: #fff;
@@ -402,9 +406,8 @@ height: 24px;
 	overflow: hidden;
 }
 .block_in{
-	background: url(../img/block_in.jpg) no-repeat;
+	background: url(../img/block_in.png) repeat;
 	background-position: bottom left;
-    background-color: #f08219;
     margin: 20px 0px;
 	padding-bottom: 20px;
 }
@@ -414,24 +417,24 @@ height: 24px;
 	padding: 30px;
 	margin: 1%;
 	text-align: center;
-	border: 1px solid #cccccc;
+	/*border: 1px solid #cccccc;*/
 	border-radius: 2px;
 	padding-bottom: 20px;
 	transition:all 0.2s ease-in-out;
 }
 .block_4:hover{
 	background: #f1f1f1;
-	border: 1px solid #f1f1f1;
+	/*border: 1px solid #f1f1f1;*/
 }
 .block_4 img{
 	height: 95px;
 }
 .block_3{
+	background: #f0f1f1;
 	width: 360px;
 	display: inline-block;
 	margin: 1%;
 	text-align: center;
-	background: #fff;
 	border-radius: 2px;
 	padding-bottom: 10px;
 	vertical-align: top;
