@@ -40,6 +40,16 @@ time, mark, audio, video {
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'Square721 BT';
+	src: url('../fonts/Square721BT-Roman.eot');
+	src: url('../fonts/Square721BT-Roman.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Square721BT-Roman.woff') format('woff'),
+	url('../fonts/Square721BT-Roman.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -101,20 +111,20 @@ height: 24px;
 }
 .h2{
 	text-align: center;
-	margin: 40px 0px;
+	margin: 10px 0px 30px;
 	font-size: 34px;
-	text-align: center;
 	line-height: 40px;
-	font-family: 'Roboto Condensed', arial;
+	font-family: 'Bebas Neue';
 }
 .h2_w{
-	text-align: center;
+	display: inline-block;
+	text-align: left;
 	margin: 40px 0px;
 	font-size: 34px;
-	text-align: center;
 	line-height: 40px;
-	font-family: 'Roboto Condensed', arial;
-	color: #fff;
+	font-family: 'Bebas Neue';
+	color: #1e2326;
+	float: left;
 }
 .h3{
 	color: #1e2326;
@@ -394,21 +404,22 @@ height: 24px;
 	background: #1e2326;
 }
 
-.cont_head_center{
+/*.cont_head_center{
 	margin: 0 auto;
 	width: 90%;
 	max-width: 1700px;
-}
+}*/
+
 .cont{
 	width: 1200px;
 	margin: 0 auto;
-	margin-bottom: 40px;
+	margin-bottom: 5px;
 	overflow: hidden;
 }
 .block_in{
 	background: url(../img/block_in.png) repeat;
 	background-position: bottom left;
-    margin: 20px 0px;
+   /* margin: 20px 0px;*/
 	padding-bottom: 20px;
 }
 .block_4{
@@ -448,6 +459,13 @@ height: 24px;
 }
 .block_3 img{
 	width: 100%;
+}
+
+.green{
+	color: #32b73f;
+	font-family: 'Square721 BT';
+	font-size: 40px;
+	font-weight: bold;
 }
 /* Footer
 -----------------------------------------------------------------------------*/
@@ -633,8 +651,8 @@ height: 24px;
 }
 .submit
 {
-    background: #63492e;
-	border: 1px solid #63492e;
+    background: #1e2326 ;
+	border: 1px solid #1e2326;
     font-size: 16px;
 	font-family: 'Roboto Regular';
     transition: all 0.2s ease-in-out;
@@ -648,7 +666,13 @@ height: 24px;
 .submit:hover
 {
 background: #fff; /* Old browsers */
-color: #63492e;
+color: #1e2326;
+}
+
+.call_form{
+	display: inline-block;
+	float: right;
+	margin: 70px 10px;
 }
 .text
 {

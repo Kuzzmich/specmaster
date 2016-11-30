@@ -38,7 +38,7 @@
     <div class="wrapper">
         <header class="header">
             <div class="cont_head">
-                <div class="cont_head_center">
+                <div class="cont">
                     <div class="head_logo">
                         <a href="/"><img src="images/logo.png" alt="Аварийное вскрите замков дверей - Медвежатник"></a>
                     </div>
@@ -142,8 +142,10 @@
             </div>
             <div class="block_in center">
                 <div class="cont">
-                    <p class="h2_w">Оставьте заявку и мы обязательно Вам перезвоним</p>
-                    <form method="POST" id="feedback-forms">
+                    <p class="h2_w">Оставьте свой номер <br> и мастер обязательно вам <br>
+                        <span class="highlighted"> перезвонит в ближайшее время</span>
+                    </p>
+                    <form class="call_form" method="POST" id="feedback-forms">
                         <input type="text" name="telFF" required="" placeholder="Имя" class="text">
                         <input type="text" name="nameFF" required="" placeholder="Телефон" class="text">
                         <input type="submit" value="Отправить" class="submit">
@@ -151,6 +153,38 @@
                     <br>
                 </div>
             </div>
+
+            <div class="cont">
+                <p class="h2">Вскрытие замков любой сложности 99% без повреждений</p>
+                <p class="left">
+                    Наша компания занимается не только реализацией замковых конструкций
+                    от лучших мировых производителей, но и предлагает услуги по их обслуживанию.
+                    То есть если Вам необходима помощь любого рода, связанная с замками и дверьми,
+                    тогда Вам стоит обратиться к нашим специалистам. У нас работают настоящие профессионалы,
+                    которые справятся с любой проблемой. Вскрытие дверей и замков мы реализуем в
+                    кратчайшие сроки и с профессионализмом.
+                </p>
+            </div>
+
+            <div class="cont">
+                <section class="block_4">
+                    <p class="green">1234</p>
+                    <p>вскрытых замков</p>
+                </section>
+                <section class="block_4">
+                    <p class="green">1234</p>
+                    <p>вскрытых замков</p>
+                </section>
+                <section class="block_4">
+                    <p class="green">1234</p>
+                    <p>вскрытых замков</p>
+                </section>
+                <section class="block_4">
+                    <p class="green">1234</p>
+                    <p>вскрытых замков</p>
+                </section>
+            </div>
+
             <div style="background: #f0f1f1;">
                 <div class="cont">
                     <section class="block_3">
