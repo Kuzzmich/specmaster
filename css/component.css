@@ -51,7 +51,7 @@ html, body, .container, .scroller {
 	left: 0;
 	width: 100%;
 	min-height: 100%;
-	background: #63492e;
+	background: #1E2326;
 	overflow: hidden;
 	-webkit-transform: translate3d(-100%, 0, 0);
 	-moz-transform: translate3d(-100%, 0, 0);
@@ -73,7 +73,7 @@ html, body, .container, .scroller {
 
 .mp-pusher::after,
 .mp-level::after {
-	background: rgba(37, 23, 22, 0.7);
+	background: rgba(30, 35, 38, 0.7);
 	-webkit-transition: opacity 0.3s, width 0.1s 0.3s, height 0.1s 0.3s;
 	-moz-transition: opacity 0.3s, width 0.1s 0.3s, height 0.1s 0.3s;
 	transition: opacity 0.3s, width 0.1s 0.3s, height 0.1s 0.3s;

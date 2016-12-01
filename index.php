@@ -12,7 +12,7 @@
     <link href="http://allfont.ru/allfont.css?fonts=roboto-bold" rel="stylesheet" type="text/css"/>
     <link href="http://allfont.ru/allfont.css?fonts=roboto-condensed-bold" rel="stylesheet" type="text/css"/>
     <link href="http://allfont.ru/allfont.css?fonts=roboto-condensed" rel="stylesheet" type="text/css"/>
-    <script src="/js/modernizr.custom.js"></script>
+    <script src="js/modernizr.custom.js"></script>
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
@@ -81,7 +81,7 @@
                     <div class="head_soc">
                         <img src="images/vk.png" alt="Медвежатник вконтатке">
                         <img src="images/ok.png" alt="Медвежатник одноклассники">
-                        <img src="images/f.png" alt="Название компании">
+                        <img src="images/inst.png" alt="Название компании">
                     </div>
                 </div>
             </div>
@@ -90,54 +90,62 @@
             <div class="cont center">
                 <!--<jdoc:include type="component"/>  <!-- Код для вывода контента (статей) -->
                 <section class="block_4">
-                    <img src="images/n1.png" alt="Вскрытие входных и межкомнатных дверей">
-                    <h3 class="h4">Вскрытие дверей</h3>
+                    <a href="#" style="text-decoration: none">
+                        <img src="images/n1.png" alt="Вскрытие дверей">
+                        <h3 class="h4">Вскрытие дверей</h3>
 
-                    <p class="price">от 800 ₽</p>
-                    <p>
+                        <p class="price">от 800 руб.</p>
+                    </a>
                 </section>
                 <section class="block_4">
-                    <img src="images/n2.png" alt="Вскрытие входных и межкомнатных дверей">
-                    <h3 class="h4">Вскрытие авто</h3>
-                    <p class="price">от 800 ₽</p>
-                    <p>
+                    <a href="#" style="text-decoration: none">
+                        <img src="images/n2.png" alt="Вскрытие авто">
+                        <h3 class="h4">Вскрытие авто</h3>
+                        <p class="price">от 1000 руб.</p>
+                    </a>
                 </section>
                 <section class="block_4">
-                    <img src="images/n3.png" alt="Вскрытие входных и межкомнатных дверей">
-                    <h3 class="h4">Вскрытие сейфов</h3>
-                    <p class="price">от 800 ₽</p>
-                    <p>
+                    <a href="#" style="text-decoration: none">
+                        <img src="images/n3.png" alt="Вскрытие сейфов">
+                        <h3 class="h4">Вскрытие сейфов</h3>
+                        <p class="price">от 1000 руб.</p>
+                    </a>
                 </section>
                 <section class="block_4">
-                    <img src="images/n4.png" alt="Вскрытие входных и межкомнатных дверей">
-                    <h3 class="h4">Вскрытие замков</h3>
-                    <p class="price">от 800 ₽</p>
-                    <p>
+                    <a href="#" style="text-decoration: none">
+                        <img src="images/n4.png" alt="Вскрытие замков">
+                        <h3 class="h4">Вскрытие замков</h3>
+                        <p class="price">от 800 руб.</p>
+                    </a>
                 </section>
                 <section class="block_4">
-                    <img src="images/n5.png" alt="Вскрытие входных и межкомнатных дверей">
-                    <h3 class="h4">Ремонт замков</h3>
+                    <a href="#" style="text-decoration: none">
+                        <img src="images/n5.png" alt="Ремонт замков">
+                        <h3 class="h4">Ремонт замков</h3>
 
-                    <p class="price">от 800 ₽</p>
-                    <p>
+                        <p class="price">от 800 руб.</p>
+                    </a>
                 </section>
                 <section class="block_4">
-                    <img src="images/n6.png" alt="Вскрытие входных и межкомнатных дверей">
-                    <h3 class="h4">Установка замков</h3>
-                    <p class="price">от 800 ₽</p>
-                    <p>
+                    <a href="#" style="text-decoration: none">
+                        <img src="images/n6.png" alt="Установка замков">
+                        <h3 class="h4">Установка замков</h3>
+                        <p class="price">от 800 руб.</p>
+                    </a>
                 </section>
                 <section class="block_4">
-                    <img src="images/n7.png" alt="Вскрытие входных и межкомнатных дверей">
-                    <h3 class="h4">Замена замков</h3>
-                    <p class="price">от 800 ₽</p>
-                    <p>
+                    <a href="#" style="text-decoration: none">
+                        <img src="images/n7.png" alt="Замена замков">
+                        <h3 class="h4">Замена замков</h3>
+                        <p class="price">от 800 руб.</p>
+                    </a>
                 </section>
                 <section class="block_4">
-                    <img src="images/n8.png" alt="Вскрытие входных и межкомнатных дверей">
-                    <h3 class="h4">Изготовление ключей</h3>
-                    <p class="price">от 800 ₽</p>
-                    <p>
+                    <a href="#" style="text-decoration: none">
+                        <img src="images/n8.png" alt="Дубликаты ключей">
+                        <h3 class="h4">Дубликаты ключей</h3>
+                        <p class="price">от 50 руб.</p>
+                    </a>
                 </section>
             </div>
             <div class="block_in center">
@@ -168,20 +176,20 @@
 
             <div class="cont">
                 <section class="block_4">
-                    <p class="green">1234</p>
+                    <p class="green">1203</p>
                     <p>вскрытых замков</p>
                 </section>
                 <section class="block_4">
-                    <p class="green">1234</p>
-                    <p>вскрытых замков</p>
+                    <p class="green">2132</p>
+                    <p>вскрытых астомобилей</p>
                 </section>
                 <section class="block_4">
-                    <p class="green">1234</p>
-                    <p>вскрытых замков</p>
+                    <p class="green">879</p>
+                    <p>вскрытых дверей</p>
                 </section>
                 <section class="block_4">
-                    <p class="green">1234</p>
-                    <p>вскрытых замков</p>
+                    <p class="green">4298</p>
+                    <p>доваольных клиентов</p>
                 </section>
             </div>
 
@@ -227,10 +235,12 @@
     </div><!-- .wrapper -->
     <div class="map">
         <script type="text/javascript" charset="utf-8"
-                src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=B1yfzdhg0MntwmWLHRpQRCuQ76J5VlFO&width=auto&height=300"></script>
+                src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=B1yfzdhg0MntwmWLHRpQRCuQ76J5VlFO&width=auto&height=368"></script>
     </div>
     <div class="city"><br>
-        Наша служба оказывает услуги по вскрытию дверей в Ставрополе и по всему Ставропольскому краю:<br><br>
+        <p class="city_head">
+            Наша служба оказывает услуги по вскрытию дверей в Ставрополе и по всему Ставропольскому краю:<br><br>
+        </p>
         <div class="st1">
             г. Ставрополь<br>
             г. Михайловск<br>
@@ -269,30 +279,41 @@
         </div>
     </div>
     <footer class="footer">
-        <div class="cont_head">
-            <div class="head_logo">
-                <img src="images/logo.png" alt="Название компании">
-            </div>
-            <div class="footer_menu none">
-                <jdoc:include type="modules" name="menu"/>
-            </div>
-            <div class="footer_phone none">
-                <p class="phone">+7 (962) 441-42-50</p>
-                <a href="#zakaz">Заказать звонок</a>
-            </div>
-            <div class="head_soc">
+        <div class="cont">
+            <div class="cont_head">
+                <div class="head_logo">
+                    <img src="images/logo.png" alt="Название компании">
+                </div>
 
-            </div>
-            <div class="footer_soc none">
-                <img src="images/vk.png" alt="Название компании">
-                <img src="images/ok.png" alt="Название компании">
-                <img src="images/inst.png" alt="Название компании">
+                <!--<div class="footer_menu none">
+                    <jdoc:include type="modules" name="menu"/>
+                </div>-->
+                <div class="footer_phone">
+                    <!-- <a href="#zakaz">Заказать звонок</a>-->
+                    <img src="images/call.png" alt="Вызов">
+                    <div class="phones">
+                        <p class="phone">8 (8652) 660-550</p>
+                        <p class="phone">8 (968) 266-05-50</p>
+                    </div>
+                </div>
+                <div class="footer_copyright">
+                    Компания "СпецМастер"<br>
+                    Все права защищены (с) 2016
+                </div>
+                <div class="head_soc">
+
+                </div>
+                <div class="footer_soc none">
+                    <img src="images/vk.png" alt="Название компании">
+                    <img src="images/ok.png" alt="Название компании">
+                    <img src="images/inst.png" alt="Название компании">
+                </div>
             </div>
         </div>
     </footer><!-- .footer -->
 </div>
-<script src="/js/classie.js"></script>
-<script src="/js/mlpushmenu.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/mlpushmenu.js"></script>
 <script>
     new mlPushMenu(document.getElementById('mp-menu'), document.getElementById('trigger'));
 </script>
@@ -329,41 +350,32 @@
     <a href="#"><img src="images/up.svg" id="showLeftPushs" alt="Меню"></a>
 </div>
 <!-- Yandex.Metrika counter -->
-<script type="text/javascript">
-    (function (d, w, c) {
+<script type="text/javascript"> (function (d, w, c) {
         (w[c] = w[c] || []).push(function () {
             try {
-                w.yaCounter25564037 = new Ya.Metrika({
-                    id: 25564037,
+                w.yaCounter41282649 = new Ya.Metrika({
+                    id: 41282649,
                     clickmap: true,
                     trackLinks: true,
-                    accurateTrackBounce: true,
-                    webvisor: true,
-                    trackHash: true
+                    accurateTrackBounce: true
                 });
             } catch (e) {
             }
         });
-
-        var n = d.getElementsByTagName("script")[0],
-            s = d.createElement("script"),
-            f = function () {
-                n.parentNode.insertBefore(s, n);
-            };
+        var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () {
+            n.parentNode.insertBefore(s, n);
+        };
         s.type = "text/javascript";
         s.async = true;
         s.src = "https://mc.yandex.ru/metrika/watch.js";
-
         if (w.opera == "[object Opera]") {
             d.addEventListener("DOMContentLoaded", f, false);
         } else {
             f();
         }
-    })(document, window, "yandex_metrika_callbacks");
-</script>
+    })(document, window, "yandex_metrika_callbacks"); </script>
 <noscript>
-    <div><img src="https://mc.yandex.ru/watch/25564037" style="position:absolute; left:-9999px;" alt=""/></div>
-</noscript>
-<!-- /Yandex.Metrika counter -->
+    <div><img src="https://mc.yandex.ru/watch/41282649" style="position:absolute; left:-9999px;" alt=""/></div>
+</noscript> <!-- /Yandex.Metrika counter -->
 </body>
 </html>

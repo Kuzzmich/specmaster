@@ -6,6 +6,10 @@
     .main_name {
         margin-left: 60%;
     }
+
+    .city_head{
+        width: auto;
+    }
 }
 
 @media (min-width: 1px) and (max-width: 1199px) {
@@ -84,6 +88,9 @@
         font-size: 44px;
         line-height: 52px;
     }
+    .footer_phone{
+        float: none;
+    }
 }
 
 @media (min-width: 1px) and (max-width: 450px) {
@@ -119,5 +126,4 @@
     .head_phone img{
         display: none;
     }
-
 }
