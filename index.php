@@ -88,65 +88,7 @@
         </div>
         <main class="content">
             <div class="cont center">
-                <!--<jdoc:include type="component"/>  <!-- Код для вывода контента (статей) -->
-                <section class="block_4">
-                    <a href="#" style="text-decoration: none">
-                        <img src="images/n1.png" alt="Вскрытие дверей">
-                        <h3 class="h4">Вскрытие дверей</h3>
-
-                        <p class="price">от 800 руб.</p>
-                    </a>
-                </section>
-                <section class="block_4">
-                    <a href="#" style="text-decoration: none">
-                        <img src="images/n2.png" alt="Вскрытие авто">
-                        <h3 class="h4">Вскрытие авто</h3>
-                        <p class="price">от 1000 руб.</p>
-                    </a>
-                </section>
-                <section class="block_4">
-                    <a href="#" style="text-decoration: none">
-                        <img src="images/n3.png" alt="Вскрытие сейфов">
-                        <h3 class="h4">Вскрытие сейфов</h3>
-                        <p class="price">от 1000 руб.</p>
-                    </a>
-                </section>
-                <section class="block_4">
-                    <a href="#" style="text-decoration: none">
-                        <img src="images/n4.png" alt="Вскрытие замков">
-                        <h3 class="h4">Вскрытие замков</h3>
-                        <p class="price">от 800 руб.</p>
-                    </a>
-                </section>
-                <section class="block_4">
-                    <a href="#" style="text-decoration: none">
-                        <img src="images/n5.png" alt="Ремонт замков">
-                        <h3 class="h4">Ремонт замков</h3>
-
-                        <p class="price">от 800 руб.</p>
-                    </a>
-                </section>
-                <section class="block_4">
-                    <a href="#" style="text-decoration: none">
-                        <img src="images/n6.png" alt="Установка замков">
-                        <h3 class="h4">Установка замков</h3>
-                        <p class="price">от 800 руб.</p>
-                    </a>
-                </section>
-                <section class="block_4">
-                    <a href="#" style="text-decoration: none">
-                        <img src="images/n7.png" alt="Замена замков">
-                        <h3 class="h4">Замена замков</h3>
-                        <p class="price">от 800 руб.</p>
-                    </a>
-                </section>
-                <section class="block_4">
-                    <a href="#" style="text-decoration: none">
-                        <img src="images/n8.png" alt="Дубликаты ключей">
-                        <h3 class="h4">Дубликаты ключей</h3>
-                        <p class="price">от 50 руб.</p>
-                    </a>
-                </section>
+                <jdoc:include type="component"/>  <!-- Код для вывода контента (статей) -->
             </div>
             <div class="block_in center">
                 <div class="cont">
